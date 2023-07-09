@@ -18,7 +18,7 @@
   Work abroad: Dalian (China), Hanoi (Vietnam) - teaching Russian as a foreign language.
 
   4. *My skills*:
-Java Script, HTML, CSS, Figma, Photoshop, Coral DRAW.
+  Java Script, HTML, CSS, Figma, Photoshop, Coral DRAW.
 
 5. *Code example*:  
 const rabbit = document.querySelector('.rabbit');
