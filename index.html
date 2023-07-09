@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Halina Sharshukova</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>CV Halina Sharshukova</h1>
+<header>
+<h1>CV <span> Halina Sharshukova</span></h1>
+<nav>
+  <ul class="navigate">
+  <li><a href="#nav1">Contacts</a></li>
+  <li><a href="#nav2">Aducation</a></li>
+  <li><a href="#nav3">Age</a></li>
+  <li><a href="#nav4">Work</a></li>
+  <li><a href="#nav5">My skills</a></li>
+  <li><a href="#nav6">Code example JS</a></li>
+  <li><a href="#nav7">Foreign languages</a></li>
+  <li><a href="#nav8">My Features</a></li>
+  </ul>
+</nav>
+</header>
+
+<main>
+<section id="nav1">
+<h2>Contacts</h2>  
+<address> 
+<ul class="contacts">
+<li>+375295644242 (Belarus, Minsk)</li>
+<li>e-mail: galagaladrielsh@gmail.com</li>
+<li>github: galagaladrielsh</li>
+<li>discord: @galadrielsh</li>
+</ul>
+<figure>
+<img src="img/photo.jpg" alt="photo">
+</figure> 
+</address> 
+</section>
+
+<section id="nav2">
+<h2>Aducation</h2>
+<p>Specialist - Belarusian State University, Faculty of letter (2010). 
+<br>Master - Belarusian State University, Faculty of letter; Peoples' Friendship University of Russia, Philological Faculty (2012).</p>
+</section>
+
+<section id="nav3">
+<h2>Age</h2> 
+<p>35</p>
+</section>
+
+<section id="nav4">
+<h2>Work</h2> 
+<p>Right now I am working as a Senior Lecturer in BSU teaching Russian as a foreign language at the Belarusian State University.
+<br>Work abroad: Hanoi (Vietnam), Dalian (China) - teaching Russian as a foreign language.</p>
+</section>
+
+<section id="nav5">
+<h2>My skills</h2> 
+<p>Java Script, HTML, CSS, Figma, Photoshop, Coral DRAW.</p>
+</section>
+
+<section id="nav6">
+<h2>Code example JS</h2> 
+<pre>
+<code>
+const rabbit = document.querySelector('.rabbit');
+document.addEventListener('click', (e) => {
+  const x = e.clientX;
+  const y = e.clientY;
+  const rabbitX = rabbit.getBoundingClientRect().left;
+  if (x < rabbitX) {
+    rabbit.classList.add('rabbit--left');
+  } else {
+    rabbit.classList.remove('rabbit--left');
+  }
+  setTimeout(() => {
+    rabbit.style.transform = `translate(${x}px, ${y}px)`;}, 300);
+});
+</script>
+</code>
+</pre>
+</section>
+
+<section id="nav7">
+<h2>Foreign languages</h2> 
+<p>English (B2), Chinese (Intermediate level).</p>        
+</section>
+
+<section id="nav8">
+<h2>My Features</h2> 
+<p>Communication skills. I like learning new things.</p>        
+</section>
+</main>
+
+<footer>
+<p><a href="https://github.com/Galagaladrielsh"><img src="img/github.png" width="20" alt="github"></a></p>
+<p> &#169; Galadrielsh, 2023</p>
+<p><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" width="20" alt="RSschool"></a></p>
+</footer>
 </body>
 </html>
