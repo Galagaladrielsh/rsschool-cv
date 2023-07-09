@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: darkred;
+}
+
+body, html {
+background-color: antiquewhite;
+}
+
+header, footer {
+background-color: bisque;
+text-align: center;
+}
+
+figure, address{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+margin: auto;
+text-align: center;
+}
+span{
+color: green;
+text-decoration: solid;
+}
+
+h2 {
+    margin: 10px 10px;
+    text-align: left;
+    color: #4d0776;
+}
+
+section{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
