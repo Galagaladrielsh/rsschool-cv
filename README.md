@@ -1,1 +1,1 @@
-﻿https://Galagaladrielsh.github.io/rsschool-cv
+﻿https://Galagaladrielsh.github.io/rsschool-cv/cv
